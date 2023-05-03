@@ -8,6 +8,8 @@
   - Concept drift is the situation when the functional relationship between the model inputs and outputs changes.
   
 Option 1:
-  Pooled Cross-Sectional Dataset
+  - Pooled Cross-Sectional Dataset
+<br></br>
+
 Option 2:
-  Create artificial Dataset and simulate DD & CD
+  - Create artificial Dataset and simulate DD & CD
