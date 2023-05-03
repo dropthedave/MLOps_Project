@@ -12,4 +12,4 @@ Option 1:
 <br></br>
 
 Option 2:
-  - Create artificial Dataset and simulate DD & CD
+  - Create artificial Dataset and simulate DD & CD (no real world problem)
