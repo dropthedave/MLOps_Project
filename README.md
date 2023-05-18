@@ -1,15 +1,7 @@
 # MLOps_Project
 
-## Dataset Requirements
+## Classification Task
+Predicting if flights get cancelled.
 
-- Data Drift
-  - Data drift is the situation where the model’s input distribution changes.
-- Concept Drift
-  - Concept drift is the situation when the functional relationship between the model inputs and outputs changes.
-  
-Option 1:
-  - Pooled Cross-Sectional Dataset
-<br></br>
-
-Option 2:
-  - Create artificial Dataset and simulate DD & CD (no real world problem)
+## Dataset Source
+https://www.kaggle.com/datasets/giovamata/airlinedelaycauses
