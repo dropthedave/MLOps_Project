@@ -8,8 +8,16 @@ appropriate folder.
    You can play with your sample if you want to generate drift, or see how the mtetrics would change if drift happens.
 5. Try to build tests for your relevant functions and pipelines.
 
-## Binary Classification Task
-Predicting if flights get cancelled or diverted
+## Datasets
 
-## Dataset Source
-https://www.kaggle.com/datasets/giovamata/airlinedelaycauses
+   **1. Flight Delay - Binary Classification Task**<br>
+   - Predicting if flights get *Cancelled* or *Diverted*
+
+   **Dataset Source**<br>
+   https://www.kaggle.com/datasets/giovamata/airlinedelaycauses
+
+   **2. Pump Sensor Data - Binary Classification Task**<br>
+   - Predicting pump status (*Normal* or *Recovering*)
+   
+   **Dataset Source**<br>
+   https://www.kaggle.com/datasets/nphantawee/pump-sensor-data
