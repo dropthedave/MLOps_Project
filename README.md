@@ -8,16 +8,59 @@ appropriate folder.
    You can play with your sample if you want to generate drift, or see how the mtetrics would change if drift happens.
 5. Try to build tests for your relevant functions and pipelines.
 
-## Datasets
+# Datasets
 
-   **1. Flight Delay - Binary Classification Task**<br>
-   - Predicting if flights get *Cancelled* or *Diverted*
+   ## Smoke Detection
+   - Binary Classification Task
+   - Predict Fire Alarm
 
-   **Dataset Source**<br>
-   https://www.kaggle.com/datasets/giovamata/airlinedelaycauses
 
-   **2. Pump Sensor Data - Binary Classification Task**<br>
-   - Predicting pump status (*Normal* or *Recovering*)
+   ## Dataset Source
+   https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset
    
-   **Dataset Source**<br>
-   https://www.kaggle.com/datasets/nphantawee/pump-sensor-data
+   ## Column Description
+
+   **UTC**<br>
+   Timestamp UTC seconds
+
+   **Temperature[C]**<br>
+   Air Temperature
+
+   **Humidity[%]**<br>
+   Air Humidity
+
+   **TVOC[ppb]**<br>
+   otal Volatile Organic Compounds; measured in parts per billion
+
+   **eCO2[ppm]**<br>
+   co2 equivalent concentration; calculated from different values like TVCO
+
+   **Raw H2**<br>
+   raw molecular hydrogen; not compensated (Bias, temperature, etc.)
+
+   **Raw Ethanol**<br>
+   raw ethanol gas
+
+   **Pressure[hPa]**<br>
+   Air Pressure
+
+   **PM1.0**<br>
+   particulate matter size < 1.0 µm (PM1.0). 1.0 µm < 2.5 µm (PM2.5)
+
+   **PM2.5**<br>
+   particulate matter size < 1.0 µm (PM1.0). 1.0 µm < 2.5 µm (PM2.5)
+
+   **NC0.5**<br>
+   Number concentration of particulate matter. This differs from PM because NC gives the actual number of particles in the air. The raw NC is also classified by the particle size: < 0.5 µm (NC0.5); 0.5 µm < 1.0 µm (NC1.0); 1.0 µm < 2.5 µm (NC2.5);
+
+   **NC1.0**<br>
+   Number concentration of particulate matter. This differs from PM because NC gives the actual number of particles in the air. The raw NC is also classified by the particle size: < 0.5 µm (NC0.5); 0.5 µm < 1.0 µm (NC1.0); 1.0 µm < 2.5 µm (NC2.5);
+
+   **NC2.5**<br>
+   Number concentration of particulate matter. This differs from PM because NC gives the actual number of particles in the air. The raw NC is also classified by the particle size: < 0.5 µm (NC0.5); 0.5 µm < 1.0 µm (NC1.0); 1.0 µm < 2.5 µm (NC2.5);
+
+   **CNT**<br>
+   Sample counter
+
+   **Fire Alarm (Target)**<br>
+   ground truth is "1" if a fire is there
