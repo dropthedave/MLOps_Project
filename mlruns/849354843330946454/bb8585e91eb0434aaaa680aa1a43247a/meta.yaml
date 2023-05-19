@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/lukas/iCloudDrive/Dokumente/Nova/11%20Machine%20Learning%20Operations/04%20Deliverables/MLOps_Project/mlruns/849354843330946454/bb8585e91eb0434aaaa680aa1a43247a/artifacts
+end_time: 1684526593294
+entry_point_name: ''
+experiment_id: '849354843330946454'
+lifecycle_stage: active
+run_id: bb8585e91eb0434aaaa680aa1a43247a
+run_name: predict df2_prepro
+run_uuid: bb8585e91eb0434aaaa680aa1a43247a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684526589699
+status: 3
+tags: []
+user_id: lukas

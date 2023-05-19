@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/lukas/iCloudDrive/Dokumente/Nova/11%20Machine%20Learning%20Operations/04%20Deliverables/MLOps_Project/mlruns/849354843330946454/bddb6b23d72b453b8fe2fe83237f7f4f/artifacts
+end_time: 1684526538745
+entry_point_name: ''
+experiment_id: '849354843330946454'
+lifecycle_stage: active
+run_id: bddb6b23d72b453b8fe2fe83237f7f4f
+run_name: grid search
+run_uuid: bddb6b23d72b453b8fe2fe83237f7f4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684526430854
+status: 3
+tags: []
+user_id: lukas
