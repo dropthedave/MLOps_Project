@@ -10,14 +10,10 @@ appropriate folder.
 
 ## Datasets
 
-   **1. Flight Delay - Binary Classification Task**<br>
-   - Predicting if flights get *Cancelled* or *Diverted*
+   **Smoke Detection**<br>
+   - Binary Classification Task
+   - Predict Fire Alarm
+
 
    **Dataset Source**<br>
-   https://www.kaggle.com/datasets/giovamata/airlinedelaycauses
-
-   **2. Pump Sensor Data - Binary Classification Task**<br>
-   - Predicting pump status (*Normal* or *Recovering*)
-   
-   **Dataset Source**<br>
-   https://www.kaggle.com/datasets/nphantawee/pump-sensor-data
+   https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset
