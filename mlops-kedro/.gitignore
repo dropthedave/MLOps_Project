@@ -13,9 +13,12 @@ conf/**/*credentials*
 data/**
 logs/**
 
-# except their sub-folders
+# except their sub-folders & dataset
 !data/**/
 !logs/**/
+
+# except dataset
+!data/01_raw/smoke_detection.csv
 
 # also keep all .gitkeep files
 !.gitkeep
