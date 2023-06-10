@@ -1,0 +1,79 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+raw_data:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/smoke_detection.csv
+
+data_split1:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/data_split1.csv
+
+data_split2:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/data_split2.csv
+
+data_split3:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/data_split3.csv
+
+x_train:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/x_train.csv
+
+x_test:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/x_test.csv
+
+y_train:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/y_train.csv
+
+y_test:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/y_test.csv
+
+x:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/x.csv
+
+y:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/y.csv
+
+x_train_preprocessed:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/x_train_preprocessed.csv
+
+y_train_preprocessed:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/y_train_preprocessed.csv
+
+x_test_preprocessed:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/x_test_preprocessed.csv
+
+y_pred:
+  type: pandas.CSVDataSet
+  filepath: data/07_model_output/y_pred.csv
+
+best_params:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/best_params.pkl
+  backend: pickle
+
+data_split1_described:
+  type: json.JSONDataSet
+  filepath: data/08_reporting/describe_data_split_1.json
+
+data_split2_described:
+  type: json.JSONDataSet
+  filepath: data/08_reporting/describe_data_split_2.json
+
+data_split3_described:
+  type: json.JSONDataSet
+  filepath: data/08_reporting/describe_data_split_3.json
+
+  

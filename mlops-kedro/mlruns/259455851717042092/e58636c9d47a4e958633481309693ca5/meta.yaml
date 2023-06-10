@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/lukas/mlops-kedro/mlruns/259455851717042092/e58636c9d47a4e958633481309693ca5/artifacts
+end_time: 1686336932519
+entry_point_name: ''
+experiment_id: '259455851717042092'
+lifecycle_stage: active
+run_id: e58636c9d47a4e958633481309693ca5
+run_name: __default__
+run_uuid: e58636c9d47a4e958633481309693ca5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686336930563
+status: 3
+tags: []
+user_id: lukas

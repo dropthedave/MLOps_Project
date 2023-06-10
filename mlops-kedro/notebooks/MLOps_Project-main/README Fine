@@ -1,0 +1,7 @@
+In order to ensure data quality standards, we utilized the Python library, Great Expectations. By implementing Great Expectations, we were able to perform extensive data quality tests, ensuring its accuracy and alignment with our expectations.
+
+Great Expectations provides a wide range of functions that allow us to evaluate our data from multiple perspectives. These functions enable us to validate, document, and profile our data, offering a holistic view of its quality and characteristics. Through automated data validation and profiling, it significantly reduces the need for subjective and manual work, thereby minimizing the potential for bias in our analysis.
+
+By leveraging the capabilities of Great Expectations, we were able to establish a robust data quality framework that ensures our data meets the desired standards. The library's comprehensive functionality and automation features streamline the data quality assessment process, enabling us to save time and resources while maintaining the reliability and integrity of our data.
+
+GX provides a glossary of expectations that can be set: https://legacy.docs.greatexpectations.io/en/v0.3.2/glossary.html

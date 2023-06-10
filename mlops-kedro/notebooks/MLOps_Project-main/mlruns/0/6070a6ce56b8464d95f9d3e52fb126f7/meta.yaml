@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/lukas/mlops-kedro/notebooks/MLOps_Project-main/mlruns/0/6070a6ce56b8464d95f9d3e52fb126f7/artifacts
+end_time: 1686339492494
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6070a6ce56b8464d95f9d3e52fb126f7
+run_name: Classifier Comparison
+run_uuid: 6070a6ce56b8464d95f9d3e52fb126f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686339490384
+status: 4
+tags: []
+user_id: lukas
