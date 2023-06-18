@@ -30,7 +30,7 @@ loggers:
   kedro:
     level: INFO
 
-  mlops_kedro:
+  smoke_detection:
     level: INFO
 
 root:

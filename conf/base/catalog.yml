@@ -3,75 +3,125 @@
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://docs.kedro.org/en/stable/data/data_catalog.html
 
-raw_data:
+# Node: data_preprocessing
+dataset1:
   type: pandas.CSVDataSet
-  filepath: data/01_raw/smoke_detection.csv
+  filepath: data/01_raw/smoke_detection_1.csv
 
-data_split1:
+cleaned_dataset1:
   type: pandas.CSVDataSet
-  filepath: data/02_intermediate/data_split1.csv
+  filepath: data/02_intermediate/smoke_detection_1_cleaned.csv
 
-data_split2:
+engineered_dataset1:
   type: pandas.CSVDataSet
-  filepath: data/02_intermediate/data_split2.csv
+  filepath: data/04_feature/engineered_dataset1.csv
 
-data_split3:
+raw_describe_dataset1:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+    type: json.JSONDataSet
+    filepath: data/08_reporting/describe_data_raw.json
+
+cleaned_describe_dataset1:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+    type: json.JSONDataSet
+    filepath: data/08_reporting/describe_data_cleaned.json
+
+# Node: data_split
+X_train_data:
   type: pandas.CSVDataSet
-  filepath: data/02_intermediate/data_split3.csv
+  filepath: data/05_model_input/X_train.csv
 
-x_train:
+X_test_data:
   type: pandas.CSVDataSet
-  filepath: data/03_primary/x_train.csv
+  filepath: data/05_model_input/X_test.csv
 
-x_test:
+y_train_data:
   type: pandas.CSVDataSet
-  filepath: data/03_primary/x_test.csv
+  filepath: data/05_model_input/y_train.csv
 
-y_train:
+y_test_data:
   type: pandas.CSVDataSet
-  filepath: data/03_primary/y_train.csv
+  filepath: data/05_model_input/y_test.csv
 
-y_test:
+# Node: data_drift
+dataset2:
   type: pandas.CSVDataSet
-  filepath: data/03_primary/y_test.csv
+  filepath: data/01_new_data/smoke_detection_2.csv
 
-x:
+cleaned_dataset2:
   type: pandas.CSVDataSet
-  filepath: data/03_primary/x.csv
+  filepath: data/02_intermediate/smoke_detection_2_cleaned.csv
 
-y:
+engineered_dataset2:
   type: pandas.CSVDataSet
-  filepath: data/03_primary/y.csv
+  filepath: data/04_feature/engineered_dataset2.csv
 
-x_train_preprocessed:
+raw_describe_dataset2:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+    type: json.JSONDataSet
+    filepath: data/08_reporting/describe_data_raw_dataset2.json
+
+cleaned_describe_dataset2:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+    type: json.JSONDataSet
+    filepath: data/08_reporting/describe_data_cleaned_dataset2.json
+
+drift_result:
   type: pandas.CSVDataSet
-  filepath: data/05_model_input/x_train_preprocessed.csv
+  filepath: data/08_reporting/drift_result.csv
 
-y_train_preprocessed:
-  type: pandas.CSVDataSet
-  filepath: data/05_model_input/y_train_preprocessed.csv
+# Node: data_unit_tests
+# None
 
-x_test_preprocessed:
-  type: pandas.CSVDataSet
-  filepath: data/05_model_input/x_test_preprocessed.csv
-
-y_pred:
-  type: pandas.CSVDataSet
-  filepath: data/07_model_output/y_pred.csv
-
-best_params:
+# Node: feature_selection
+best_columns_dt: 
   type: pickle.PickleDataSet
-  filepath: data/06_models/best_params.pkl
+  filepath: data/06_models/best_cols_dt.pkl
   backend: pickle
 
-data_split1_described:
-  type: json.JSONDataSet
-  filepath: data/08_reporting/describe_data_split_1.json
+best_columns_rf: 
+  type: pickle.PickleDataSet
+  filepath: data/06_models/best_cols_rf.pkl
+  backend: pickle
 
-data_split2_described:
-  type: json.JSONDataSet
-  filepath: data/08_reporting/describe_data_split_2.json
+# Node: model_train
+test_model_dt:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/trained_model_dt.pkl
+    backend: pickle
 
-data_split3_described:
-  type: json.JSONDataSet
-  filepath: data/08_reporting/describe_data_split_3.json
+test_model_rf:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/trained_model_rf.pkl
+    backend: pickle
+
+output_plot_dt:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+    type: matplotlib.MatplotlibWriter
+    filepath: data/08_reporting/shap_plot_dt.png
+
+output_plot_rf:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+    type: matplotlib.MatplotlibWriter
+    filepath: data/08_reporting/shap_plot_rf.png
+
+# Node: model_predict
+dataset2_prediction_dt:
+  type: pandas.CSVDataSet
+  filepath: data/07_model_output/dataset2_prediction_dt.csv
+  versioned: True
+
+dataset2_prediction_rf:
+  type: pandas.CSVDataSet
+  filepath: data/07_model_output/dataset2_prediction_rf.csv
+  versioned: True

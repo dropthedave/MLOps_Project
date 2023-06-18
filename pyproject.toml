@@ -1,6 +1,6 @@
 [tool.kedro]
-package_name = "mlops_kedro"
-project_name = "Mlops kedro"
+package_name = "smoke_detection"
+project_name = "smoke_detection"
 kedro_init_version = "0.18.8"
 
 [tool.isort]
@@ -9,7 +9,7 @@ profile = "black"
 [tool.pytest.ini_options]
 addopts = """
 --cov-report term-missing \
---cov src/mlops_kedro -ra"""
+--cov src/smoke_detection -ra"""
 
 [tool.coverage.report]
 fail_under = 0

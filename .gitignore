@@ -13,19 +13,16 @@ conf/**/*credentials*
 data/**
 logs/**
 
-# except their sub-folders & dataset
+# except their sub-folders
 !data/**/
 !logs/**/
-
-# except dataset
-!data/01_raw/smoke_detection.csv
 
 # also keep all .gitkeep files
 !.gitkeep
 
-# also keep the following files
-!data/01_raw/iris.csv
-!conf/local/mlflow.yml
+# also keep the initial datasets
+!data/01_raw/smoke_detection_1.csv
+!data/01_new_data/smoke_detection_2.csv
 
 
 ##########################

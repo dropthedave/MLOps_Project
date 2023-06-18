@@ -1,8 +1,8 @@
-.. mlops_kedro documentation master file, created by sphinx-quickstart.
+.. smoke_detection documentation master file, created by sphinx-quickstart.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to project mlops_kedro's API docs!
+Welcome to project smoke_detection's API docs!
 =============================================
 
 .. toctree::

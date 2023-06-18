@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-# mlops_kedro documentation build
+# smoke_detection documentation build
 # configuration file, created by sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its
@@ -21,11 +21,11 @@ import re
 
 from kedro.framework.cli.utils import find_stylesheets
 
-from mlops_kedro import __version__ as release
+from smoke_detection import __version__ as release
 
 # -- Project information -----------------------------------------------------
 
-project = "mlops_kedro"
+project = "smoke_detection"
 author = "Kedro"
 
 # The short X.Y version.
@@ -119,7 +119,7 @@ html_show_sourcelink = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "mlops_kedrodoc"
+htmlhelp_basename = "smoke_detectiondoc"
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -147,8 +147,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "mlops_kedro.tex",
-        "mlops_kedro Documentation",
+        "smoke_detection.tex",
+        "smoke_detection Documentation",
         "Kedro",
         "manual",
     )
@@ -161,8 +161,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "mlops_kedro",
-        "mlops_kedro Documentation",
+        "smoke_detection",
+        "smoke_detection Documentation",
         [author],
         1,
     )
@@ -176,11 +176,11 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "mlops_kedro",
-        "mlops_kedro Documentation",
+        "smoke_detection",
+        "smoke_detection Documentation",
         author,
-        "mlops_kedro",
-        "Project mlops_kedro codebase.",
+        "smoke_detection",
+        "Project smoke_detection codebase.",
         "Data-Science",
     )
 ]

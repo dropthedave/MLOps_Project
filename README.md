@@ -1,4 +1,4 @@
-# Mlops kedro
+# smoke_detection
 
 ## Overview
 
