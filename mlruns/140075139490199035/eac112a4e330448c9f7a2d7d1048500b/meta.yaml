@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/eac112a4e330448c9f7a2d7d1048500b/artifacts
+deleted_time: 1687538428834
+end_time: 1687538305735
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: deleted
+run_id: eac112a4e330448c9f7a2d7d1048500b
+run_name: resilient-vole-60
+run_uuid: eac112a4e330448c9f7a2d7d1048500b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687538304490
+status: 3
+tags: []
+user_id: lukas

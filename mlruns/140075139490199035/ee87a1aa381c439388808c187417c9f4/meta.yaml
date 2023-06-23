@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/ee87a1aa381c439388808c187417c9f4/artifacts
+deleted_time: 1687538317027
+end_time: 1687538048714
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: deleted
+run_id: ee87a1aa381c439388808c187417c9f4
+run_name: rf
+run_uuid: ee87a1aa381c439388808c187417c9f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687538040320
+status: 3
+tags: []
+user_id: lukas

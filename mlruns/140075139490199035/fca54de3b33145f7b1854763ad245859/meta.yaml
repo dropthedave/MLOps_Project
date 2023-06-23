@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/fca54de3b33145f7b1854763ad245859/artifacts
+deleted_time: 1687537173698
+end_time: 1687536451755
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: deleted
+run_id: fca54de3b33145f7b1854763ad245859
+run_name: blushing-duck-750
+run_uuid: fca54de3b33145f7b1854763ad245859
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687536451661
+status: 3
+tags: []
+user_id: lukas

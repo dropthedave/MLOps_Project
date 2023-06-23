@@ -6,8 +6,8 @@ generated using Kedro 0.18.8
 
 from kedro.pipeline import Pipeline, node, pipeline
 
-from .nodes import  model_predict
-from smoke_detection.pipelines.data_preprocessing.nodes import clean_data, feature_engineer
+#from .nodes import  model_predict
+from smoke_detection.pipelines.model_predict.nodes import model_predict_rf , model_predict_dt
 
 def create_pipeline(**kwargs) -> Pipeline:
     return pipeline(
@@ -27,14 +27,14 @@ def create_pipeline(**kwargs) -> Pipeline:
             # ),
 
             node(
-                func= model_predict,
+                func= model_predict_dt,
                 inputs=["test_model_dt","X_test_data","y_test_data","engineered_dataset2","parameters","best_columns_dt"],
                 outputs= "dataset2_prediction_dt",
                 name="dataset2_prediction_dt",
             ),
 
             node(
-                func= model_predict,
+                func= model_predict_rf,
                 inputs=["test_model_rf","X_test_data","y_test_data","engineered_dataset2","parameters","best_columns_rf"],
                 outputs= "dataset2_prediction_rf",
                 name="dataset2_prediction_rf",

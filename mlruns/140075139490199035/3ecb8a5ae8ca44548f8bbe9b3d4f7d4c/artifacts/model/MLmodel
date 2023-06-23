@@ -1,0 +1,28 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.16
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.3.1
+model_uuid: f555ecf492db4f1a9ca6525964ad1a48
+run_id: 3ecb8a5ae8ca44548f8bbe9b3d4f7d4c
+signature:
+  inputs: '[{"name": "Temperature[C]", "type": "double"}, {"name": "Humidity[%]",
+    "type": "double"}, {"name": "TVOC[ppb]", "type": "double"}, {"name": "Raw Ethanol",
+    "type": "double"}, {"name": "Pressure[hPa]", "type": "double"}, {"name": "PM1.0",
+    "type": "double"}, {"name": "NC0.5", "type": "double"}, {"name": "TVOC_eCO2_ratio",
+    "type": "double"}, {"name": "Temperature[C]_25th_percentile", "type": "long"},
+    {"name": "Temperature[C]_50th_percentile", "type": "long"}, {"name": "Temperature[C]_75th_percentile",
+    "type": "long"}, {"name": "TVOC[ppb]_25th_percentile", "type": "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2023-06-23 16:38:28.593820'

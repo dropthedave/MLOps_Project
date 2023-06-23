@@ -18,7 +18,8 @@ rf:
 
 # MLFlow run names
 run_names:
-  run_name_describe_data: "describe_data"
+  run_name_preprocessing1: "data cleaning"
+  run_name_preprocessing2: "feature engineering"
   run_name_feature_selection: "feature_selection"
-  run_name_train_model_dt: "Decision Tree Model"
-  run_name_train_model_rf: "Random Forest Model"
+  run_name_train_model: "model_training"
+  #run_name_train_model_rf: "Random Forest Model"

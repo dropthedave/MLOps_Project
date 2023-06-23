@@ -78,15 +78,19 @@ drift_result:
 # None
 
 # Node: feature_selection
-best_columns_dt: 
-  type: pickle.PickleDataSet
-  filepath: data/06_models/best_cols_dt.pkl
-  backend: pickle
+best_columns_dt:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/best_cols_dt.pkl
+    backend: pickle
 
-best_columns_rf: 
-  type: pickle.PickleDataSet
-  filepath: data/06_models/best_cols_rf.pkl
-  backend: pickle
+best_columns_rf:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet 
+  data_set:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/best_cols_rf.pkl
+    backend: pickle
 
 # Node: model_train
 test_model_dt:

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/488326346382130008/6b9db70b754d45469431fa11e9c2f384/artifacts
+deleted_time: 1687277308708
+end_time: 1687275940301
+entry_point_name: ''
+experiment_id: '488326346382130008'
+lifecycle_stage: deleted
+run_id: 6b9db70b754d45469431fa11e9c2f384
+run_name: feature selection rf
+run_uuid: 6b9db70b754d45469431fa11e9c2f384
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687275915725
+status: 3
+tags: []
+user_id: lukas

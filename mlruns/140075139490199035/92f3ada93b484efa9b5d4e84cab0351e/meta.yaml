@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/92f3ada93b484efa9b5d4e84cab0351e/artifacts
+deleted_time: 1687347037418
+end_time: 1687345619446
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: deleted
+run_id: 92f3ada93b484efa9b5d4e84cab0351e
+run_name: Decision Tree Model
+run_uuid: 92f3ada93b484efa9b5d4e84cab0351e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687345614281
+status: 3
+tags: []
+user_id: lukas

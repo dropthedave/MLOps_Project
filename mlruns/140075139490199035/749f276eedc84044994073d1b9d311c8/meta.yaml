@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/749f276eedc84044994073d1b9d311c8/artifacts
+deleted_time: 1687538317025
+end_time: 1687538040315
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: deleted
+run_id: 749f276eedc84044994073d1b9d311c8
+run_name: unique-fawn-107
+run_uuid: 749f276eedc84044994073d1b9d311c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687538039070
+status: 3
+tags: []
+user_id: lukas

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/38cebc85f9974aa694b77aab9d2b4857/artifacts
+deleted_time: 1687539789009
+end_time: 1687539775994
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: deleted
+run_id: 38cebc85f9974aa694b77aab9d2b4857
+run_name: predict
+run_uuid: 38cebc85f9974aa694b77aab9d2b4857
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687539775762
+status: 3
+tags: []
+user_id: lukas

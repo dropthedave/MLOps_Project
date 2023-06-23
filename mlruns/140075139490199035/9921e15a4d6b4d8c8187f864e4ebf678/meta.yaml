@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/9921e15a4d6b4d8c8187f864e4ebf678/artifacts
+deleted_time: 1687537173688
+end_time: 1687536494400
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: deleted
+run_id: 9921e15a4d6b4d8c8187f864e4ebf678
+run_name: feature engineering
+run_uuid: 9921e15a4d6b4d8c8187f864e4ebf678
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687536494360
+status: 3
+tags: []
+user_id: lukas

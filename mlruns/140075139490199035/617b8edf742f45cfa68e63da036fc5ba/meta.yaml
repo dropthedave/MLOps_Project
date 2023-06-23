@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/617b8edf742f45cfa68e63da036fc5ba/artifacts
+end_time: 1687539777908
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: active
+run_id: 617b8edf742f45cfa68e63da036fc5ba
+run_name: prediction random forest
+run_uuid: 617b8edf742f45cfa68e63da036fc5ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687539777279
+status: 3
+tags: []
+user_id: lukas

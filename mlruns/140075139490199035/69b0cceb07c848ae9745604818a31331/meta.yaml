@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/69b0cceb07c848ae9745604818a31331/artifacts
+deleted_time: 1687538787455
+end_time: 1687538659038
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: deleted
+run_id: 69b0cceb07c848ae9745604818a31331
+run_name: sedate-cat-178
+run_uuid: 69b0cceb07c848ae9745604818a31331
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687538657976
+status: 3
+tags: []
+user_id: lukas

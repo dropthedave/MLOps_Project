@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/2651472fd81e41e28e75d8919b43a4d8/artifacts
+end_time: 1687539690168
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: active
+run_id: 2651472fd81e41e28e75d8919b43a4d8
+run_name: training decision tree
+run_uuid: 2651472fd81e41e28e75d8919b43a4d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687539681866
+status: 3
+tags: []
+user_id: lukas

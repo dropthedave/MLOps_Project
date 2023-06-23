@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/198f45886e9a452cb96d89424d2fa042/artifacts
+deleted_time: 1687279705165
+end_time: 1687278395206
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: deleted
+run_id: 198f45886e9a452cb96d89424d2fa042
+run_name: feature selection dt
+run_uuid: 198f45886e9a452cb96d89424d2fa042
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687278370749
+status: 3
+tags: []
+user_id: lukas

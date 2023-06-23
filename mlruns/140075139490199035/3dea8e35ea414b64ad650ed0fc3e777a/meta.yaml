@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/3dea8e35ea414b64ad650ed0fc3e777a/artifacts
+deleted_time: 1687537173706
+end_time: 1687535660435
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: deleted
+run_id: 3dea8e35ea414b64ad650ed0fc3e777a
+run_name: bustling-tern-738
+run_uuid: 3dea8e35ea414b64ad650ed0fc3e777a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687535659387
+status: 3
+tags: []
+user_id: lukas

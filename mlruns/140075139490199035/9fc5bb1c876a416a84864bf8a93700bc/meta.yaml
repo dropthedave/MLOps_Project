@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/lukas/MLOps_Project/mlruns/140075139490199035/9fc5bb1c876a416a84864bf8a93700bc/artifacts
+deleted_time: 1687539523179
+end_time: 1687539201204
+entry_point_name: ''
+experiment_id: '140075139490199035'
+lifecycle_stage: deleted
+run_id: 9fc5bb1c876a416a84864bf8a93700bc
+run_name: trusting-flea-813
+run_uuid: 9fc5bb1c876a416a84864bf8a93700bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687539201190
+status: 3
+tags: []
+user_id: lukas
