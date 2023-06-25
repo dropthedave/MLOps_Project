@@ -29,7 +29,7 @@ from smoke_detection.pipelines import (
     model_train as train,
     feature_selection as best_features,
     model_predict as predict,
-   # data_drift as drift_test,
+    data_drift as drift_test,
 
 )
 
@@ -44,7 +44,7 @@ def register_pipelines() -> Dict[str, Pipeline]:
     train_stage = train.create_pipeline()
     feature_selection_stage = best_features.create_pipeline()
     predict_stage = predict.create_pipeline()
-   #drift_test_stage = drift_test.create_pipeline()
+    drift_test_stage = drift_test.create_pipeline()
 
     return {
         "preprocessing": preprocessing_stage,
@@ -52,7 +52,7 @@ def register_pipelines() -> Dict[str, Pipeline]:
         "train": train_stage,
         "feature_selection": feature_selection_stage,
         "predict": predict_stage,
-       # "drift_test" : drift_test_stage, 
+        "drift_test" : drift_test_stage, 
         "__default__": preprocessing_stage + split_data_stage + feature_selection_stage + train_stage #+ drift_test_stage 
         + predict_stage
     }

@@ -40,14 +40,15 @@ def data_drift(data_reference: pd.DataFrame, data_analysis: pd.DataFrame):
 
     # Let's initialize the object that will perform the Univariate Drift calculations
     univariate_calculator = nml.UnivariateDriftCalculator(
-    column_names= column_names #["Temperature[C]", "Humidity[%]"],
-    treat_as_categorical=['y_pred'],
-    # timestamp_column_name='UTC',
-    chunk_number = 10, #chunk_size=50,
-    continuous_methods=['kolmogorov_smirnov', 'jensen_shannon'],
-    categorical_methods=['chi2', 'jensen_shannon'],
-    #categorical_methods=['jensen_shannon'],
-    thresholds={"jensen_shannon":constant_threshold})
+        column_names= column_names, #["Temperature[C]", "Humidity[%]"],
+        treat_as_categorical=['y_pred'],
+        # timestamp_column_name='UTC',
+        chunk_number = 10, #chunk_size=50,
+        continuous_methods=['kolmogorov_smirnov', 'jensen_shannon'],
+        categorical_methods=['chi2', 'jensen_shannon'],
+        #categorical_methods=['jensen_shannon'],
+        thresholds={"jensen_shannon":constant_threshold},
+        )
 
     univariate_calculator.fit(data_reference)
     results = univariate_calculator.calculate(data_analysis).to_df()
@@ -79,12 +80,12 @@ def data_drift_multivariate(data_reference: pd.DataFrame, data_analysis: pd.Data
 
     # Let's initialize the object that will perform the Univariate Drift calculations
     multivariate_calculator = nml.DataReconstructionDriftCalculator(
-    column_names= column_names #["Temperature[C]", "Humidity[%]"],
-    # timestamp_column_name='UTC',
-    chunk_number = 10, #chunk_size=50,
-    thresholds={"jensen_shannon":constant_threshold},
-    imputer_categorical=sklearn.impute.SimpleImputer(strategy='constant', fill_value='missing'),
-    imputer_continuous=sklearn.impute.SimpleImputer(strategy='median'))
+        column_names= column_names, #["Temperature[C]", "Humidity[%]"],
+        # timestamp_column_name='UTC',
+        chunk_number = 10, #chunk_size=50,
+        thresholds={"jensen_shannon":constant_threshold},
+        imputer_categorical=sklearn.impute.SimpleImputer(strategy='constant', fill_value='missing'),
+        imputer_continuous=sklearn.impute.SimpleImputer(strategy='median'))
 
     multivariate_calculator.fit(data_reference)
     results = multivariate_calculator.calculate(data_analysis).to_df()
