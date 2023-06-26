@@ -57,7 +57,7 @@ def register_pipelines() -> Dict[str, Pipeline]:
         "drift_test" : drift_test_stage, 
         "unit_test": unit_test_stage,
         # Full Pipeline
-        # "__default__": unit_test_stage + preprocessing_stage + split_data_stage + feature_selection_stage + train_stage + drift_test_stage + predict_stage
+        "__default__": unit_test_stage + preprocessing_stage + split_data_stage + feature_selection_stage + train_stage + drift_test_stage + predict_stage
         # Lukas Gross
         # "__default__": unit_test_stage + preprocessing_stage + split_data_stage + feature_selection_stage + train_stage #+ drift_test_stage
         # + predict_stage
