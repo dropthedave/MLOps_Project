@@ -1,1 +1,0 @@
-['Temperature[C]', 'Humidity[%]', 'TVOC[ppb]', 'Raw H2', 'Raw Ethanol', 'Pressure[hPa]', 'PM1.0', 'NC0.5', 'TVOC_eCO2_ratio', 'Temperature[C]_25th_percentile', 'Temperature[C]_50th_percentile', 'Temperature[C]_75th_percentile']
