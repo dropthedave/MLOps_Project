@@ -70,9 +70,9 @@ cleaned_describe_dataset2:
     type: json.JSONDataSet
     filepath: data/08_reporting/describe_data_cleaned_dataset2.json
 
-drift_result:
+multivariate_drift_results:
   type: pandas.CSVDataSet
-  filepath: data/08_reporting/drift_result.csv
+  filepath: data/08_reporting/multivariate_drift_results.csv
 
 # Node: data_unit_tests
 # None

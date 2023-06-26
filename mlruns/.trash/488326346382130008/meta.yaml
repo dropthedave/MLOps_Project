@@ -1,7 +1,0 @@
-artifact_location: file:///Users/lukas/MLOps_Project/mlruns/488326346382130008
-creation_time: 1687275093450
-experiment_id: '488326346382130008'
-last_update_time: 1687277432114
-lifecycle_stage: deleted
-name: smoke_detection
-tags: {}

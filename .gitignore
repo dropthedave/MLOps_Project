@@ -23,7 +23,8 @@ logs/**
 # also keep the initial datasets
 !data/01_raw/smoke_detection_1.csv
 !data/01_new_data/smoke_detection_2.csv
-
+!data/08_reporting/multivariate_drift_results.csv
+!data/08_reporting/univariate_data_drift_report.html
 
 ##########################
 # Common files
