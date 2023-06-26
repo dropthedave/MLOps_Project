@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/lukas/MLOps_Project-4/mlruns/1/eb115d7eb899430fb358fa42201667df/artifacts
+end_time: 1687807064119
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: eb115d7eb899430fb358fa42201667df
+run_name: unit_test
+run_uuid: eb115d7eb899430fb358fa42201667df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687807063806
+status: 3
+tags: []
+user_id: lukas
