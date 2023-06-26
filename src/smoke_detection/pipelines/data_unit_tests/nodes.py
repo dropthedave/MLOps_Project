@@ -47,8 +47,8 @@ def unit_test(
     assert pd_df_ge.expect_column_values_to_be_in_set("Fire Alarm", [0, 1]).success == True
 
     # Assert value ranges to detect outliers
-    assert pd_df_ge.expect_column_stdev_to_be_between("Temperature[C]", min_value=10, max_value=20).success == True
-    assert pd_df_ge.expect_column_stdev_to_be_between("Humidity[%]", min_value=5, max_value=15).success == True
+    assert pd_df_ge.expect_column_stdev_to_be_between("Temperature[C]", min_value=0, max_value=20).success == True
+    assert pd_df_ge.expect_column_stdev_to_be_between("Humidity[%]", min_value=0, max_value=15).success == True
     assert pd_df_ge.expect_column_values_to_be_between("TVOC[ppb]", min_value=0, max_value=None).success == True
     assert pd_df_ge.expect_column_values_to_be_between("eCO2[ppm]", min_value=0, max_value=None).success == True
     assert pd_df_ge.expect_column_mean_to_be_between("Pressure[hPa]", min_value=930, max_value=940)

@@ -1,0 +1,6 @@
+artifact_location: file:///Users/lukas/MLOps_Project-4/mlruns/1
+creation_time: 1687806051175
+experiment_id: '1'
+last_update_time: 1687806051175
+lifecycle_stage: active
+name: smoke_detection

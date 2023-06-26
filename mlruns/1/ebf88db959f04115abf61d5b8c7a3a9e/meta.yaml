@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/lukas/MLOps_Project-4/mlruns/1/ebf88db959f04115abf61d5b8c7a3a9e/artifacts
+end_time: 1687806569351
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: ebf88db959f04115abf61d5b8c7a3a9e
+run_name: training random forest
+run_uuid: ebf88db959f04115abf61d5b8c7a3a9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687806560262
+status: 3
+tags: []
+user_id: lukas
