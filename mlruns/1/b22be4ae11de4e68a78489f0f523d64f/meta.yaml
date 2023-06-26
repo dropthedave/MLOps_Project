@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/lukas/MLOps_Project-4/mlruns/1/b22be4ae11de4e68a78489f0f523d64f/artifacts
+end_time: 1687806055389
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: b22be4ae11de4e68a78489f0f523d64f
+run_name: splitting data
+run_uuid: b22be4ae11de4e68a78489f0f523d64f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687806054489
+status: 3
+tags: []
+user_id: lukas

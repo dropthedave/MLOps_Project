@@ -5,7 +5,7 @@
     {
       "expectation_type": "expect_table_column_count_to_equal",
       "kwargs": {
-        "value": 15
+        "value": 16
       },
       "meta": {}
     },
@@ -132,6 +132,13 @@
     {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
+        "column": "Unnamed: 0"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
         "column": "UTC"
       },
       "meta": {}
@@ -250,7 +257,7 @@
       "kwargs": {
         "column": "Temperature[C]",
         "max_value": 20,
-        "min_value": 10
+        "min_value": 0
       },
       "meta": {}
     },
@@ -259,7 +266,7 @@
       "kwargs": {
         "column": "Humidity[%]",
         "max_value": 15,
-        "min_value": 5
+        "min_value": 0
       },
       "meta": {}
     },

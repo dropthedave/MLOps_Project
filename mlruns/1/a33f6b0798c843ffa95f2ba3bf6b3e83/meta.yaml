@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/lukas/MLOps_Project-4/mlruns/1/a33f6b0798c843ffa95f2ba3bf6b3e83/artifacts
+end_time: 1687817836055
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: a33f6b0798c843ffa95f2ba3bf6b3e83
+run_name: feature selection decision tree
+run_uuid: a33f6b0798c843ffa95f2ba3bf6b3e83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687817834459
+status: 3
+tags: []
+user_id: lukas
